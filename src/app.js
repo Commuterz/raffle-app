@@ -11,7 +11,6 @@ const store = configureStore();
 
 const Scenes = Actions.create(
   <Scene key='root'>
-
     <Scene key='home' component={Home} title='Home'/>
   </Scene>
 )
