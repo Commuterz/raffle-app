@@ -146,7 +146,7 @@ self.setState({loaderVisible:true});
          totalParticipants:self.state.participantsValue,
          totalPrize:self.state.prizeValue,
          poolSize:self.state.prizeValue,
-         timeToRaffle:'360', // 1 minute in seconds
+         timeToRaffle:'300000', // 5 minute in milliseconds
          winners: self.state.winners,
      });
      //console.warn('jsonData' +JSON.stringify(jsonData));
