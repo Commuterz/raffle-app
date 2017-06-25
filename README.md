@@ -2,7 +2,7 @@
 
 Raffle App is a react-native app.
 
-Installation
+#Installation
 
 To run the iOS project
 
